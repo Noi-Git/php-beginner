@@ -25,8 +25,11 @@
   <h2>Data Types</h2>
   <?php include 'data-type.php'; ?>
 
-  <h2>Array</h2>
+  <h2>Arrays</h2>
   <?php include 'arrays.php'; ?>
+
+  <h2>Conditionals</h2>
+  <?php include 'conditionals.php'; ?>
 
 </body>
 
