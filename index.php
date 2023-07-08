@@ -31,6 +31,9 @@
   <h2>Conditionals</h2>
   <?php include 'conditionals.php'; ?>
 
+  <h2>Loops</h2>
+  <?php include 'loops.php'; ?>
+
 </body>
 
 </html>

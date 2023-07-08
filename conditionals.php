@@ -40,27 +40,30 @@ if (!empty($posts)) {
 
 // === save in variable
 $firstPost = !empty($posts) ? $posts[0] : 'No posts dummer!';
-// echo $firstPost;
+echo $firstPost;
+echo "</br>";
 
 $secondPost = empty($emptyPost) ? 'No posts dummer!' : 'Hmmm!!';
-// echo $secondPost;
+echo $secondPost;
+echo "</br>";
 
 // === Use double ??
 // $thirdPost = $withoutEmpty[0] ?? null;
 $thirdPost = $withoutEmpty[0] ?? 'There is no post in here';
-// echo $thirdPost;
+echo $thirdPost;
+echo "</br>";
 
 // === switch case
 $favColor = 'green';
 
 switch ($favColor) {
   case 'red':
-    echo "Your favorite color is red";
+    echo "Your favorite color is red </br>";
     break;
   case 'blue':
-    echo "Your favorite color is blue";
+    echo "Your favorite color is blue </br>";
     break;
   default:
-    echo "You do not have favorit color";
+    echo "You do not have favorit color </br>";
     break;
 }

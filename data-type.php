@@ -5,13 +5,13 @@ $name = 'Noi';
 $age = 40;
 // === Use . for concatenation
 // === Use "" the result is like string interporation ``
-// echo 'My name is ' . $name;
+echo 'My name is ' . $name;
+echo "</br>";
+
+echo "This is another way: $name </br>";
 // echo "</br>";
 
-// echo "This is another way: $name";
-// echo "</br>";
-
-// echo "Another to concat variable: {$name}";
+echo "Another to concat variable: {$name} </br>";
 // echo "</br>";
 
 
