@@ -1,3 +1,13 @@
+<?php
+// echo "hello";
+
+// print_r([1, 2, 3]);
+// var_dump('hello');
+// var_dump(true);
+
+// var_export('Hi there!');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,10 +18,12 @@
 </head>
 
 <body>
-  <?php
-  echo 'Hello!! Today is:::: ';
-  echo date('Y-m-d H:i:s');
-  ?>
+  <?php echo "First php"; ?>
+  <h1><?php echo "This is with h1 tag"; ?></h1>
+  <p><?= 'short hand: use = sign then you do not need "php echo"'; ?></p>
+
+  <?php include 'data-type.php'; ?>
+
 </body>
 
 </html>
